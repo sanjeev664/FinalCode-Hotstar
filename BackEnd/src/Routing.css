@@ -1,0 +1,23 @@
+@media (min-width: 767px) {
+    .login_footer {
+        margin-top: -150px;
+    }
+}
+
+@media (min-width: 767px) {
+    .confirm_otp_footer {
+        margin-top: -150px;
+    }
+}
+
+@media (min-width: 767px) {
+    .search_result_footer {
+        margin-top: -150px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,86 @@
+@media (min-width: 768px) {
+  .Login {
+    margin-top: 150px;
+  }
+}
+
+.login_form {
+  width: 100%;
+}
+
+.mobile_input_taken {
+  width: 100%;
+}
+
+.otp_form_input{
+  width: 100%;
+}
+
+.confirm_input_btn {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .login_form {
+    margin-left: 11%;
+    width: 300px;
+  }
+
+  .mobile_input_taken {
+    width: 300px;
+  }
+
+  .login_input_btn {
+    width: 300px;
+  }
+
+  .confirm_input_btn {
+    width: 350px;
+  }
+
+  .otp_form_input{
+    width: 350px;
+  }
+  .otp_form{
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .login_form {
+    margin-left: 21%;
+  }
+  .otp_form{
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .login_form {
+    margin-left: 28.5%;
+  }
+  .otp_form{
+    margin-left: 33%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login_form {
+    margin-left: 32%;
+  }
+  .otp_form{
+    margin-left: 36%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .login_form {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Login {
+    margin-top: 85px;
+  }
+}

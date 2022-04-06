@@ -1,0 +1,27 @@
+.footer_option_container{
+    list-style-type: none;
+}
+.footer_options_link{
+    display: inline;
+    padding: 0 20px 0 0;
+}
+.footer_options{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+.SingleVideo{
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .SingleVideo{
+        margin-top: 72px;
+    }
+}
+@media (max-width: 768px) {
+    .SingleVideo{
+        margin-top: 56px;
+    }
+}
+@media (max-width: 991px) {
+    .movie_details{
+        display: none;
+    }
+}
+
+
+
+.single_video_thumbnail_set {display: table; width: 100%; height: 100px; background-color: lightgrey; text-align: center}
+.center_logo {display: table-cell}
+.center_play_logo {vertical-align: middle}

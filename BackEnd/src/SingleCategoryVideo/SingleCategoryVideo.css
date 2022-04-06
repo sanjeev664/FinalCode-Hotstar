@@ -1,0 +1,67 @@
+.Similar_category_video_thumbnail_hover_effect {
+  position: relative;
+  transition: transform 500ms;
+  width: 100%;
+}
+.hover_effect_on_hover .Similar_category_video_thumbnail_hover_effect:focus,
+.hover_effect_on_hover .Similar_category_video_thumbnail_hover_effect:hover {
+  transform: scale(1.17);
+  z-index: 1;
+}
+.Similar_category_video_thumbnail_hover_effect{
+  position: relative;
+  float: left;
+}
+.Similar_category_video_thumbnail_hover_effect .Similar_category_video_description_hover_effect{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: rgb(19, 49, 78);
+  color: white;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.Similar_category_video_thumbnail_hover_effect:hover{
+  cursor: pointer;
+}
+.Similar_category_video_thumbnail_hover_effect:hover .Similar_category_video_description_hover_effect{
+  visibility: visible;
+  opacity: 0.7; 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.similar_category_video_thumbnail{
+    width: 100%;
+}
+@media (min-width: 1600px) {
+    .similar_category_video_thumbnail{
+        width: 90%;
+    }
+}
+@media (min-width: 768px) {
+    .SingleCategoryVideo{
+        margin-top: 72px;
+    }
+}
+@media (max-width: 768px) {
+    .SingleCategoryVideo{
+        margin-top: 56px;
+    }
+}
+.loading_spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  color: white;
+}
+
+
+
+
+
+
